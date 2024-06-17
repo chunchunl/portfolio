@@ -4,7 +4,7 @@
 #about{
     background-image: url(../images/p1.jpg)
 }
-#news{
+#portfolio{
     background-image: url(../images/p2.jpg)
 }
 #service{
@@ -39,4 +39,57 @@ section{
 
 .txt-bg h2{
     text-align: center;
+    color: #381D02;
+}
+
+.txt-bg h6{
+    text-align: center;
+    color: #381D02;
+}
+
+/* home超連結 */
+
+.txt-bg .nav{
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 75px;
+}
+.nav ul{
+    list-style: none;
+}
+.nav ul li{
+    display: inline;
+} 
+.nav ul li a{
+    color: #ebcfb4;
+    /* text-decoration: none; */
+    background-color: #381D02;
+    padding: 5px;
+    margin-right:2px;
+    border-radius: 5px;
+}
+
+
+
+.info{
+    overflow: hidden;
+    
+}
+
+.info .box{
+    float:right;
+}
+
+.info .box img{
+    border-radius: 10%;
+    /* width:300px; */
+    height: 150px;
+    margin: 20px;
+    box-shadow: 0 0 10px #381D02;
+}
+
+.info .box h4{
+    text-align: center;
+    color: #381D02;
+    font-size: 15px;
 }
